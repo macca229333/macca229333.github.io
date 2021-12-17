@@ -1,0 +1,386 @@
+.sections .nav-sections-item-content>.navigation {
+    display: none;
+}
+
+.nav-sections .mean-nav {
+    float: left;
+    width: 100%;
+    position: absolute;
+    background-color: #666;
+    z-index: 2;
+    left: 0;
+}
+
+.vmagicmenu {
+    display: block !important;
+    position: relative;
+    padding: 0;
+    z-index: 90;
+    width: 270px;
+    float: left;
+}
+
+.nav-sections-item-content .vmagicmenu {
+    position: relative;
+    display: block;
+    text-align: left;
+}
+
+.vmagicmenu .block-title {
+    padding: 0 30px;
+    line-height: 49px;
+    cursor: pointer;
+}
+
+.vmagicmenu .block-title .vmagicmenu-subtitle {
+    padding: 0 0 0 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.vmagicmenu .block-title span {
+    vertical-align: middle;
+}
+
+.vmagicmenu .block-vmagicmenu-content {
+    padding: 0;
+    position: absolute;
+}
+
+.vmagicmenu .vmagicmenu-narrow {
+    position: absolute;
+    border-width: 0 2px 2px;
+    border-style: solid;
+    margin: 0;
+    padding: 5px 0 25px;
+    list-style: outside none none;
+    width: 270px;
+    display: none;
+}
+
+.vmagicmenu .level0 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    line-height: 39px;
+    width: 100%;
+    list-style: none;
+    position: static;
+}
+
+.vmagicmenu .block-vmagicmenu-content .nav-desktop .level0 a.level-top {
+    cursor: pointer;
+}
+
+.vmagicmenu .level0 .level-top {
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0 18px;
+    padding: 0;
+    font-size: 100%;
+    text-decoration: none;
+    display: block;
+    outline: medium none;
+    position: relative;
+}
+
+.vmagicmenu .level0 .level-top span {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.vmagicmenu .level0 .level-top-mega {
+    padding: 0 15px;
+}
+
+.vmagicmenu .level0 .level-top-mega, .vmagicmenu .vmagicmenu-narrow .level0.dropdown>.level0 {
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    left: 100%;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    top: 0 !important;
+    min-height: 100%;
+}
+
+.vmagicmenu .level0 .level-top-mega .content-mega {
+    margin: 0;
+    padding: 0;
+}
+
+.vmagicmenu .level-top a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.nav-sections .vmagicmenu .level0 .level-top-mega .mage-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.level-top-mega .mage-column.cat-mega {
+    margin: 0;
+    list-style: outside none none;
+}
+
+.vmagicmenu .level0 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    line-height: 39px;
+    width: 100%;
+    list-style: none;
+    position: static;
+}
+
+.nav-sections .vmagicmenu .level0 .level-top-mega .mage-column .children {
+    min-height: auto;
+}
+
+.vmagicmenu .level0 .level-top-mega .mage-column .children {
+    float: left;
+    width: 235px;
+    text-align: left;
+    padding: 0 15px;
+    margin: 0;
+    min-height: 240px;
+}
+
+.vmagicmenu .level0 .level-top-mega .children.level1>a {
+    color: #08032c;
+    border-color: #e6e6e6;
+}
+
+.vmagicmenu .level0 .level-top-mega .children>a {
+    padding-top: 18px;
+}
+
+.vmagicmenu .level0 .level-top-mega .children>a {
+    border-width: 0 0 1px;
+    border-style: solid;
+    display: block;
+    padding-top: 28px;
+    padding-bottom: 8px;
+    position: relative;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.vmagicmenu .level0 .level-top-mega .children a, .vmagicmenu p {
+    line-height: 30px;
+    text-align: left;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+
+.vmagicmenu .level0 .level-top-mega .children>a span {
+    font-size: 14px;
+}
+
+.nav-sections-item-content .magicmenu {
+    position: relative;
+    display: block;
+    text-align: left;
+}
+
+.magicmenu .nav-desktop {
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+
+.magicmenu .nav-desktop .level0 {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.magicmenu .nav-desktop .level0 .level-top {
+    padding: 15px 13px;
+    font-size: 14px;
+    position: relative;
+    text-decoration: none;
+    outline: medium none;
+    display: block;
+    text-align: left;
+    line-height: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.magicmenu .nav-desktop .level0 .level-top>span {
+    white-space: nowrap;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.magicmenu .nav-desktop .level0 .level-top-mega, .magicmenu .nav-desktop .level0.dropdown>.level0 {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 15px;
+    position: absolute;
+    z-index: 99999;
+    display: none;
+    opacity: 0;
+    top: 130%;
+    transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .3);
+}
+
+.magicmenu .nav-desktop .level-top a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.magicmenu .nav-desktop .level0 .level-top-mega .mage-column.cat-mega {
+    float: left;
+}
+
+.magicmenu .nav-desktop .level0 .level-top-mega .content-mega-horizontal .cat-mega {
+    padding-bottom: 0;
+}
+
+.level-top-mega .mage-column.cat-mega {
+    margin: 0;
+    list-style: outside none none;
+}
+
+.magicmenu .nav-desktop .level0 {
+    padding: 0;
+    padding-bottom: 0px;
+    margin: 0;
+    display: inline-block;
+}
+
+.magicmenu .nav-desktop .level0 .level-top-mega .mage-column .children {
+    float: left;
+    text-align: left;
+    width: 235px;
+    padding: 0 15px;
+}
+
+.magicmenu .nav-desktop .level0 .level-top-mega .mage-column li {
+    margin: 0;
+}
+
+.vmagicmenu .level0.hasChild .level-top::after {
+    content: "\f105";
+    font-family: FontAwesome;
+    float: right;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    vertical-align: middle;
+    font-size: 14px;
+    position: relative;
+}
+
+.magicmenu .nav-desktop .level0.hasChild .level-top::after, .magicmenu .nav-desktop .level0.hasChild .level-top::after {
+    content: "\f107";
+    font-family: "FontAwesome";
+    font-size: 15px;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+.magicmenu .nav-desktop .level0 .level-top-mega .children.level1>a {
+    border-width: 0 0 1px;
+    border-style: solid;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 28px 0 8px;
+    display: block;
+    line-height: 25px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.magicmenu .nav-desktop .level0 .level-top-mega .children.level1>a {
+    color: #08032c;
+    border-color: #e6e6e5;
+}
+
+.magicmenu .nav-desktop .level0 .level-top-mega .children a, .magicmenu .nav-desktop p {
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.vmagicmenuonclickshow {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+.magicmenu .nav-desktop .level0.dropdown .level0 {
+    position: absolute;
+    width: 215px;
+    padding: 20px 0;
+    line-height: 38px;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    z-index: 99999;
+    display: none;
+    opacity: 0;
+    top: 130%;
+    transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -webkit-transition: all .3s ease-in-out 0s;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .3);
+}
+
+.magicmenu .nav-desktop .level0.dropdown .level0 {
+    background-color: #ffffff;
+    border-color: #ededed;
+}
+
+.magicmenu .nav-desktop .level0.dropdown .level0 {
+    background-color: #ffffff;
+    border-color: #ededed;
+}
+
+.magicmenu .nav-desktop .level0.dropdown .level0 {
+    position: absolute;
+    width: 215px;
+    padding: 20px 0;
+    line-height: 38px;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    z-index: 99999;
+    display: none;
+    opacity: 0;
+    top: 130%;
+    transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -webkit-transition: all .3s ease-in-out 0s;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .3);
+}
+
+.magicmenuonclickshow {
+    opacity: 1 !important;
+    visibility: visible;
+    display: block !important;
+    top: 50px !important;
+}
+
+.magicmenu .nav-desktop .level0.dropdown .level1 a, .vmagicmenu .vmagicmenu-narrow .level0.dropdown .level1 a {
+    padding: 0 18px;
+    display: block;
+    text-transform: uppercase;
+}
