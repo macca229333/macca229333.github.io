@@ -1,0 +1,21 @@
+.shortdescrow p {
+    border: 1px #d8d8d8 solid;
+    height: 75px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.shortdescrow p:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,1)70%);
+    width: 100%;
+    height: 4em;
+}
