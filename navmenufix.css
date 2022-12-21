@@ -2,6 +2,10 @@
     display: none;
 }
 
+.zsiq_custommain {
+    z-index: 1000 !important;
+}
+
 .nav-sections .mean-nav {
     float: left;
     width: 100%;
