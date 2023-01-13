@@ -2,6 +2,10 @@
     display: none;
 }
 
+.invite-friend > .comment {
+    display: none;
+}
+
 .zsiq_custommain {
     z-index: 1000 !important;
 }
