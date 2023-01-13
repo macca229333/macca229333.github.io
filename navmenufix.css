@@ -10,7 +10,9 @@
     display: none;
 }
 
-
+.mp-code {
+    display: none;
+}
 
 .zsiq_custommain {
     z-index: 1000 !important;
